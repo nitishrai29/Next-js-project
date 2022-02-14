@@ -33,7 +33,7 @@ const users=({data})=>{
                         
                         <h3 style={{backgroundColor:'black',color:'whitesmoke', width:'20px', marginLeft:'34rem', padding:'7px',width:'27px'}}>{elem.id}</h3>
                         
-                        <Link href={`/${elem.id}`}>
+                        <Link href={`/${elem.id}`} passHref>
                         <h2 style={{marginLeft:'28rem', cursor:'pointer'}}>{elem.name}</h2>
                         </Link>
                         

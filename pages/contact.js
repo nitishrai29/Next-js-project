@@ -43,27 +43,27 @@ const Contact =()=>{
           <div className="container">
           <Form>
             <div className="mb-3">
-                <label for="exampleFormControlInput1" className="form-label">First Name</label>
+                <label htmlFor="exampleFormControlInput1" className="form-label">First Name</label>
                 <input type="text" className="form-control" id="exampleFormControlInput1" name='firstName' placeholder="Your Name"/>
             </div>
 
             <div className="mb-3">
-                <label for="exampleFormControlInput1" className="form-label">Last name</label>
+                <label htmlFor="exampleFormControlInput1" className="form-label">Last name</label>
                 <input type="text" className="form-control" id="exampleFormControlInput1" name='lastName' placeholder="Last name"/>
             </div>
 
             <div className="mb-3">
-                <label for="exampleFormControlInput1" className="form-label">Email address</label>
+                <label htmlFor="exampleFormControlInput1" className="form-label">Email address</label>
                 <input type="email" className="form-control" id="exampleFormControlInput1" name='email' placeholder="mail@example.com"/>
             </div>
 
             <div className="mb-3">
-                <label for="exampleFormControlInput1" className="form-label">Password</label>
+                <label htmlFor="exampleFormControlInput1" className="form-label">Password</label>
                 <input type="password" className="form-control" id="exampleFormControlInput1" name='Password' placeholder="password"/>
             </div>
 
             <div className="mb-3">
-                <label for="exampleFormControlInput1" className="form-label">confirm Password</label>
+                <label htmlFor="exampleFormControlInput1" className="form-label">confirm Password</label>
                 <input type="password" className="form-control" id="exampleFormControlInput1" name='confirmPassword' placeholder="Re-enter password"/>
             </div>
 
